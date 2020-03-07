@@ -1,5 +1,7 @@
 package com.midtrans.demo.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -145,6 +147,119 @@ public class CheckOutPage extends TestBase {
 			
 			getCustomerPostalCode().sendKeys(postalCode);
 			
+		}
+		public static class OrderDetails
+		{
+			
+			public OrderDetails() {
+			super();
+			PageFactory.initElements(driver, this);
+			}
+			
+			@FindBy(xpath="//*[@class=\"app-container\"]")
+			private WebElement orderContainer;
+			
+			@FindBy(css="#snap-midtrans")
+			private WebElement cancelOrder;
+			
+			@FindBy(xpath="//*[@class=\"text-amount-amount\"]")
+			private WebElement pillowPrice;
+			
+			@FindBy(xpath="(//*[@class='text-actionable'])[1]")
+			private WebElement orderDetails;
+			
+			@FindBy(xpath="//*[@class=\"item-name\"]")
+			private WebElement orderItemName;
+			
+			@FindBy(xpath="//*[@class=\"table-amount text-body\"]")
+			private WebElement orderAmount;
+			
+			@FindBy(xpath="(//*[@class='text-actionable'])[2]")
+			private WebElement shippingDetails;
+			
+			@FindBy(xpath="(//*[@class=\"text-body\"])[1]")
+			private WebElement ShippingCustomerName;
+			
+			@FindBy(xpath="(//*[@class=\"text-body\"])[4]")
+			private WebElement shippingAddress;
+			
+			@FindBy(xpath="(//*[@class=\"text-body\"])[2]")
+			private WebElement ShippingPhone;
+			
+			@FindBy(xpath="(//*[@class=\"text-body\"])[3]")
+			private WebElement ShippingEmail;
+			
+			@FindBy(xpath="//*[@class=\"button-main-content\"]")
+			private WebElement continueButton;
+			
+			@FindBy(xpath="//*[@class=\"list-title text-actionable-bold\"]")
+			private List<WebElement> paymentMethodsList;
+			
+		
+			public List<WebElement> getPaymentMethodsList() {
+				return paymentMethodsList;
+			}
+
+
+			public WebElement getCancelOrder() {
+				return cancelOrder;
+			}
+
+
+			public WebElement getPillowPrice() {
+				return pillowPrice;
+			}
+
+
+			public WebElement getOrderDetails() {
+				return orderDetails;
+			}
+
+
+			public WebElement getOrderItemName() {
+				return orderItemName;
+			}
+
+
+			public WebElement getOrderAmount() {
+				return orderAmount;
+			}
+
+
+			public WebElement getShippingDetails() {
+				return shippingDetails;
+			}
+
+
+			public WebElement getShippingCustomerName() {
+				return ShippingCustomerName;
+			}
+
+
+			public WebElement getShippingAddress() {
+				return shippingAddress;
+			}
+
+
+			public WebElement getShippingPhone() {
+				return ShippingPhone;
+			}
+
+
+			public WebElement getShippingEmail() {
+				return ShippingEmail;
+			}
+
+
+			public WebElement getContinueButton() {
+				return continueButton;
+			}
+
+
+			public WebElement getOrderContainer() {
+				return orderContainer;
+			}
+		
 		}
 
 }

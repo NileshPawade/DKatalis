@@ -159,10 +159,36 @@ public class ProductPurchaseTest extends TestBase {
 		cardDetails.getPayNow().click();
 		
 		log.info("Clicked On Pay Now");
-
+		
+		driver.switchTo().frame(0);
+		
+		log.info("Switched to frame");
+		
+		wait.until(ExpectedConditions.visibilityOf(cardDetails.getTtransactionAmount()));
+		
+		
+		Assert.assertEquals(CommonUtlities.convertElementToNumber(cardDetails.getTtransactionAmount()), 19000);
+		
+		log.info("Transaction amount is:"+CommonUtlities.convertElementToNumber(cardDetails.getTtransactionAmount()));
+		
+		String currentdate[]=cardDetails.getTransactionTime().getText().split(" ");
+		
+		log.info("Auto Generated Transaction date"+currentdate[0]);
+		
+		Assert.assertEquals(currentdate[0], CommonUtlities.getCurrentDateWithFormat());
+		
+		/*Card number value is partially display so assertion fails here hence this part is commented
+		 * 
+		Assert.assertEquals(CommonUtlities.convertElementToNumber(cardDetails.getTcardNumber()), cardNumber);*/
+		
+		cardDetails.getTpassword().sendKeys(OTP);
+		
+		log.info(OTP+ "OTP entered");
+		
+		cardDetails.getTOk().click();
+		
+		log.info("clicked on OK to complete Transaction");
 	
-		
-		
 	}
 
 	@AfterTest

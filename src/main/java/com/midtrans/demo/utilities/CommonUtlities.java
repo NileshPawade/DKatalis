@@ -3,6 +3,8 @@ package com.midtrans.demo.utilities;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -79,7 +81,13 @@ public class CommonUtlities extends TestBase{
 		}
 
 	}
-	
+	public static String getCurrentDateWithFormat()
+	{
+		    SimpleDateFormat formatter = new SimpleDateFormat("M/d/yyyy");  
+		    Date date = new Date();  
+		    System.out.println(formatter.format(date)); 
+		    return formatter.format(date);
+	}
 	
 
 	public static void scrollToElement(WebElement element)

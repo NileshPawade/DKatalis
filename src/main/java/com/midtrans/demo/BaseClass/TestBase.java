@@ -96,13 +96,12 @@ public class TestBase {
 		log.info("All Browser cookies Cleared");
 		
 		driver.manage().timeouts().implicitlyWait(CommonUtlities.implicitWait, TimeUnit.SECONDS);
-		log.info("Implicit wait set to"+CommonUtlities.implicitWait);
+		log.info("Implicit wait set to: "+CommonUtlities.implicitWait);
 		
 		driver.manage().timeouts().pageLoadTimeout(CommonUtlities.PageLoadtimeOut, TimeUnit.SECONDS);
-		log.info("Page Load time Out set to:"+CommonUtlities.PageLoadtimeOut);
+		log.info("Page Load time Out set to: "+CommonUtlities.PageLoadtimeOut);
 		
-		driver.get(prop.getProperty("url"));
-		log.info("URL hit:"+prop.getProperty("url"));
+
 	}
 	
 

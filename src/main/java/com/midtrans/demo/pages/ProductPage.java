@@ -28,17 +28,14 @@ public class ProductPage extends TestBase {
 
 	public WebElement getBuyNowButton() {
 		
-		log.info("Button with Text :"+ buyNowButton.getText());
 		return buyNowButton;
 	}
 
 	public WebElement getPillowPrice() {
-		log.info("Pillow price is: :"+ pillowPrice.getText());
 		return pillowPrice;
 	}
 
 	public WebElement getSignUpButton() {
-		log.info("Button with text: :"+ signUpButton.getText());
 		return signUpButton;
 	}
 

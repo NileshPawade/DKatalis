@@ -39,31 +39,6 @@ public class ProductPurchaseTest extends TestBase {
 		
 		checkOutPage.AddCustomerDetails(customerName, email, phone, city, address, postalCode);
 		
-		/*
-		 * checkOutPage.getCustomerName().clear();
-		 * 
-		 * checkOutPage.getCustomerName().sendKeys("Nilesh");
-		 * 
-		 * checkOutPage.getCustomerEmail().clear();
-		 * 
-		 * checkOutPage.getCustomerEmail().sendKeys("abc@gmail.com");
-		 * 
-		 * checkOutPage.getCustomerPhoneNumber().clear();
-		 * 
-		 * checkOutPage.getCustomerPhoneNumber().sendKeys("123434234234");
-		 * 
-		 * checkOutPage.getCustomerCity().clear();
-		 * 
-		 * checkOutPage.getCustomerCity().sendKeys("Pune");
-		 * 
-		 * checkOutPage.getCustomerAddress().clear();
-		 * 
-		 * checkOutPage.getCustomerAddress().sendKeys("Maharashtra,India");
-		 * 
-		 * checkOutPage.getCustomerPostalCode().clear();
-		 * 
-		 * checkOutPage.getCustomerPostalCode().sendKeys("3442232");
-		 */
 	}
 	
 	@AfterTest

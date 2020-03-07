@@ -28,7 +28,7 @@ public class TestBase {
 		
 		prop = new Properties();
 		
-		File file = new File(System.getProperty("user.dir")+"/src/main/java/Properties/config.properties");
+		File file = new File(System.getProperty("user.dir")+"/src/main/java/com/midtrans/demo/configuration/config.properties");
 
 		try {
 			FileInputStream fis = new FileInputStream(file);
@@ -59,12 +59,18 @@ public class TestBase {
 		}
 		if (prop.getProperty("browser").equals("chrome")&&prop.getProperty("os").equals("ubuntu")) {
 			
+			//Not required for latest chrome browser so commented
+			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/java/com/midtrans/demo/drivers/chromedriver");
+			
 			WebDriverManager.chromedriver().operatingSystem(OperatingSystem.LINUX).setup();
 			driver = new ChromeDriver();
 		}
 
 		else if (prop.getProperty("browser").equals("firefox")&&prop.getProperty("os").equals("ubuntu")) {
+			
 			WebDriverManager.firefoxdriver().operatingSystem(OperatingSystem.LINUX).setup();
+			//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/src/main/java/com/midtrans/demo/drivers/geckodriver.exe");
+
 			driver = new FirefoxDriver();
 
 		}
@@ -75,6 +81,7 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.get(prop.getProperty("url"));
 
 	}
 	

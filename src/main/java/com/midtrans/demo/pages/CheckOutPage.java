@@ -118,5 +118,33 @@ public class CheckOutPage extends TestBase {
 		public WebElement getCancelButton() {
 			return cancelButton;
 		}
+		
+		public void AddCustomerDetails(String customerName,String email,String phone,String city,String address,String postalCode)
+		{
+			getCustomerName().clear();
+			
+			getCustomerName().sendKeys(customerName);
+			
+			getCustomerEmail().clear();
+			
+			getCustomerEmail().sendKeys(email);
+			
+			getCustomerPhoneNumber().clear();
+			
+			getCustomerPhoneNumber().sendKeys(phone);
+			
+			getCustomerCity().clear();
+			
+			getCustomerCity().sendKeys(city);
+			
+			getCustomerAddress().clear();
+			
+			getCustomerAddress().sendKeys(address);
+			
+			getCustomerPostalCode().clear();
+			
+			getCustomerPostalCode().sendKeys(postalCode);
+			
+		}
 
 }

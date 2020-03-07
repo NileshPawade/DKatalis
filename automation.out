@@ -79,3 +79,45 @@
 2020-03-07 21:15:10 INFO  ProductPurchaseTest:102 - Shpping address is combination of address city and postal codePune,Maharshtra,India India 6734732
 2020-03-07 21:15:10 INFO  ProductPurchaseTest:106 - clicked on [[ChromeDriver: chrome on LINUX (56cc6c37b2bb51d4c3f5197828da8f85)] -> xpath: //*[@class="button-main-content"]]
 2020-03-07 21:15:10 INFO  ProductPurchaseTest:115 - Driver instance closed
+2020-03-07 21:54:27 INFO  TestBase:77 - Chrome browser launched for :ubuntuOperating system
+2020-03-07 21:54:27 INFO  TestBase:93 - Browser window maximised
+2020-03-07 21:54:27 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-07 21:54:27 INFO  TestBase:99 - Implicit wait set to20
+2020-03-07 21:54:27 INFO  TestBase:102 - Page Load time Out set to:20
+2020-03-07 21:54:35 INFO  TestBase:105 - URL hit:https://demo.midtrans.com/
+2020-03-07 21:54:35 INFO  ProductPurchaseTest:178 - Reading data from Sheet CustomerAddress
+2020-03-07 21:54:35 INFO  CommonUtlities:53 - Data from current row is:[[Ljava.lang.String;@3d3ba765
+2020-03-07 21:54:36 INFO  ProductPurchaseTest:51 - BUY NOWis clicked
+2020-03-07 21:54:36 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-07 21:54:37 INFO  CheckOutPage:118 - Input is inserted as: nilesh1
+2020-03-07 21:54:37 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-07 21:54:38 INFO  CheckOutPage:125 - Email is inserted as: test1@gmail.com
+2020-03-07 21:54:38 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-07 21:54:38 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627372
+2020-03-07 21:54:38 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-07 21:54:38 INFO  CheckOutPage:141 - City detail is inserted as: 1236627372
+2020-03-07 21:54:38 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-07 21:54:39 INFO  CheckOutPage:148 - Phone number is inserted as: Pune,Maharshtra,India
+2020-03-07 21:54:39 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-07 21:54:39 INFO  CheckOutPage:155 - Postal number is inserted as: 6734732
+2020-03-07 21:54:40 INFO  ProductPurchaseTest:57 - Button clicked
+2020-03-07 21:54:40 INFO  ProductPurchaseTest:69 - Switched to Frame
+2020-03-07 21:54:41 INFO  ProductPurchaseTest:73 - Pillow price is displayed
+2020-03-07 21:54:41 INFO  ProductPurchaseTest:77 - Pillow price is as expected20000
+2020-03-07 21:54:41 INFO  ProductPurchaseTest:81 - Product Name is as expectedMidtrans Pillow
+2020-03-07 21:54:41 INFO  ProductPurchaseTest:85 - Order Amount is as expected20000
+2020-03-07 21:54:42 INFO  ProductPurchaseTest:89 - Clicked on Shipping Detail
+2020-03-07 21:54:42 INFO  ProductPurchaseTest:93 - Customer name is as expectednilesh1
+2020-03-07 21:54:42 INFO  ProductPurchaseTest:98 - phone number is as expected1236627372
+2020-03-07 21:54:42 INFO  ProductPurchaseTest:102 - Email is as expectedtest1@gmail.com
+2020-03-07 21:54:42 INFO  ProductPurchaseTest:106 - Shpping address is combination of address city and postal codePune,Maharshtra,India India 6734732
+2020-03-07 21:54:42 INFO  ProductPurchaseTest:110 - clicked on CONTINUE
+2020-03-07 21:54:43 INFO  ProductPurchaseTest:117 - All payment Methods availabilityvisibility of all [[[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (b0d05fa0476c88231dd9e2ba93544b26)] -> xpath: //*[@class="list-title text-actionable-bold"]]]
+2020-03-07 21:54:43 INFO  ProductPurchaseTest:121 - Credit CardPayment method selected
+2020-03-07 21:54:44 INFO  ProductPurchaseTest:125 - Amount after applying promo code19000
+2020-03-07 21:54:46 INFO  ProductPurchaseTest:132 - Card Number is :4811 1111 1111 1114is entered
+2020-03-07 21:54:48 INFO  ProductPurchaseTest:137 - Expiry Date is :3/20is entered
+2020-03-07 21:55:47 INFO  ProductPurchaseTest:142 - CVV Number is :123is entered
+2020-03-07 21:55:53 INFO  ProductPurchaseTest:147 - Scrolled to Email
+2020-03-07 21:55:58 INFO  ProductPurchaseTest:157 - SCrolled to PayNow
+2020-03-07 21:56:33 INFO  ProductPurchaseTest:173 - Driver instance closed

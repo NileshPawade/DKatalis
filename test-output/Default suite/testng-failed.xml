@@ -5,8 +5,9 @@
     <classes>
       <class name="com.midtrans.demo.testcases.ProductPurchaseTest">
         <methods>
-          <include name="ProductPurchaseSuccessFlowTest"/>
+          <include name="ProductPurchaseSuccessFlowTest" invocation-numbers="0"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.midtrans.demo.testcases.ProductPurchaseTest -->
     </classes>

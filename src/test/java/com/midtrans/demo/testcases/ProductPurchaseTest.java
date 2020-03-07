@@ -42,7 +42,7 @@ public class ProductPurchaseTest extends TestBase {
 
 	@Test(dataProvider = "addCustomerDetails")
 	public void ProductPurchaseSuccessFlowTest(String customerName, String email, String phone, String city,
-			String address, String postalCode,String paymentMethod) {
+			String address, String postalCode,String paymentMethod,String cardNumber,String expiryDate,String CVV,String OTP) {
 		
 		Assert.assertEquals(productPage.getBuyNowButton().isEnabled(), true);
 
@@ -127,6 +127,40 @@ public class ProductPurchaseTest extends TestBase {
 		wait.until(ExpectedConditions.visibilityOf(cardDetails.getCardNumber()));
 		
 		
+		cardDetails.getCardNumber().sendKeys(cardNumber);
+		
+		log.info("Card Number is :"+cardNumber+"is entered");
+		
+		
+		cardDetails.getExpiryDate().sendKeys(expiryDate);
+		
+		log.info("Expiry Date is :"+expiryDate+"is entered");
+		
+		
+		cardDetails.getcVV().sendKeys(CVV);
+		
+		log.info("CVV Number is :"+CVV+"is entered");
+		
+		
+		CommonUtlities.scrollToElement(cardDetails.getEmail());
+		
+		log.info("Scrolled to Email");
+		
+		/*Assert.assertEquals(cardDetails.getEmail().getText(), email);
+		
+		CommonUtlities.scrollToElement(cardDetails.getPhone());
+		
+		Assert.assertEquals(cardDetails.getPhone().getAttribute("placeholder").replace("+",""),phone);*/
+		
+		CommonUtlities.scrollToElement(cardDetails.getPayNow());
+		
+		log.info("SCrolled to PayNow");
+		
+		cardDetails.getPayNow().click();
+		
+		log.info("Clicked On Pay Now");
+
+	
 		
 		
 	}

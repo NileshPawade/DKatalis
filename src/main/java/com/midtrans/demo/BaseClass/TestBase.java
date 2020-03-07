@@ -101,8 +101,7 @@ public class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(CommonUtlities.PageLoadtimeOut, TimeUnit.SECONDS);
 		log.info("Page Load time Out set to:"+CommonUtlities.PageLoadtimeOut);
 		
-		driver.get(prop.getProperty("url"));
-		log.info("URL hit:"+prop.getProperty("url"));
+
 	}
 	
 

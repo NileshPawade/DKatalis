@@ -67,6 +67,13 @@ public class CardDetails extends TestBase {
 
 	@FindBy(xpath = "//*[@id=\"acsMain\"]/div/div/img")
 	private WebElement bankLogo;
+	
+	@FindBy(xpath = "//*[@id=\"application\"]/div[3]/div/div/div/div/div/div[2]")
+	private WebElement transactionStatus;
+
+	public WebElement getTransactionStatus() {
+		return transactionStatus;
+	}
 
 	public WebElement getBankLogo() {
 		return bankLogo;

@@ -3,9 +3,12 @@ package com.midtrans.demo.testcases;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -30,9 +33,11 @@ public class ProductPurchaseTest extends TestBase {
 	CardDetails cardDetails;
 	private final static Logger log=LoggerHelper.getLogger(ProductPurchaseTest.class);
 
-	@BeforeTest
+	@BeforeMethod
 	public void setup() {
 		initialisation();
+		driver.get(prop.getProperty("url"));
+		log.info("URL hit:"+prop.getProperty("url"));
 		productPage = new ProductPage();
 		checkOutPage = new CheckOutPage();
 		orderDetails = new OrderDetails();
@@ -42,7 +47,7 @@ public class ProductPurchaseTest extends TestBase {
 
 	@Test(dataProvider = "addCustomerDetails")
 	public void ProductPurchaseSuccessFlowTest(String customerName, String email, String phone, String city,
-			String address, String postalCode,String paymentMethod,String cardNumber,String expiryDate,String CVV,String OTP) {
+			String address, String postalCode,String paymentMethod,String cardNumber,String expiryDate,String CVV,String OTP) throws InterruptedException {
 		
 		Assert.assertEquals(productPage.getBuyNowButton().isEnabled(), true);
 
@@ -188,15 +193,23 @@ public class ProductPurchaseTest extends TestBase {
 		cardDetails.getTOk().click();
 		
 		log.info("clicked on OK to complete Transaction");
-	
-	}
-
-	@AfterTest
-	public void tearDown() {
 		
+     	Thread.sleep(3000);
+     	
+     	//wait.until(ExpectedConditions.visibilityOf(cardDetails.getTransactionStatus()));
+     	
+     	Assert.assertEquals(cardDetails.getTransactionStatus().getText().contains("Successful"), true);
+     	
+     	log.info(cardDetails.getTransactionStatus().getText().contains("Successful"));
+     	
+	}
+	
+	@AfterMethod
+	public void tearDown() {
+		log.info("Closing driver instance");
 		driver.close();
 		
-		log.info("Driver instance closed");
+		
 	}
 
 	@DataProvider(name = "addCustomerDetails")

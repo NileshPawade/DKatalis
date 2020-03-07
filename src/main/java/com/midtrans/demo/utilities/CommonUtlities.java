@@ -52,7 +52,7 @@ public class CommonUtlities extends TestBase{
 		} catch (BiffException e) {
 			e.printStackTrace();
 		}
-		log.info("Data from current row is:"+ arrayExcelData);
+	
 		return arrayExcelData;
 		
 	}
@@ -83,7 +83,7 @@ public class CommonUtlities extends TestBase{
 	}
 	public static String getCurrentDateWithFormat()
 	{
-		    SimpleDateFormat formatter = new SimpleDateFormat("M/d/yyyy");  
+		    SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");  
 		    Date date = new Date();  
 		    System.out.println(formatter.format(date)); 
 		    return formatter.format(date);

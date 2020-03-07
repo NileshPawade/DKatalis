@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.openqa.selenium.WebElement;
+
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
@@ -36,6 +38,11 @@ public class CommonUtlities {
 			e.printStackTrace();
 		}
 		return arrayExcelData;
+	}
+	public static long convertElementToNumber(WebElement element) {
+		long number = (long)Double.parseDouble(element.getText().replaceAll("[,+-]", ""));
+		return number;
+
 	}
 
 

@@ -241,8 +241,9 @@ public class CheckOutPage extends TestBase {
 			public WebElement getShippingAddress() {
 				return shippingAddress;
 			}
+			
 
-
+			
 			public WebElement getShippingPhone() {
 				return ShippingPhone;
 			}
@@ -260,6 +261,185 @@ public class CheckOutPage extends TestBase {
 
 			public WebElement getOrderContainer() {
 				return orderContainer;
+			}
+			public static class CheckOutSettingPage
+			{
+				
+				public CheckOutSettingPage() {
+					
+					super();
+					PageFactory.initElements(driver, this);
+				}
+				
+				@FindBy(css="a.btn.btn-transparent")
+				private WebElement cancelSetting;
+				
+				@FindBy(xpath="//*[@id=\"saveSetting\"]")
+				private WebElement saveSettingCheck;
+				
+				@FindBy(css="a.btn.btn-primary")
+				private WebElement startButton;
+				
+				@FindBy(xpath="(//*[@class=\"radio-group inline-block main-setting-radio\"])[1]")
+				private WebElement commonFeaturesRadio;
+				
+				@FindBy(xpath="(//*[@class=\"radio-group inline-block main-setting-radio\"])[2]")
+				private WebElement AdvancedFeaturesRadio;
+				
+				@FindBy(xpath="(//*[@name=\\\"is_snap_pop_up\\\"])[1]")
+				private WebElement uiMethodPopUpRadio;
+				
+				@FindBy(xpath="(//*[@name=\"is_snap_pop_up\"])[2]")
+				private WebElement uiMethodredirectionRadio;
+				
+				@FindBy(xpath="//*[@name=\"enabled_payments_use\"]")
+				private WebElement activePaymentAll;
+				
+				@FindBy(xpath="//*[@id=\"customselect\"]")
+				private WebElement activePayementCustom;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:credit_card\"]")
+				private WebElement CustomCreditCard;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:bank_transfer\"]")
+				private WebElement CustomATM;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:gopay\"]")
+				private WebElement customGOPay;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:cimb_clicks\"]")
+				private WebElement customCIMB;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:mandiri_clickpay\"]")
+				private WebElement customMandiriClick;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:mandiri_ecash\"]")
+				private WebElement customMandiriECash;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:bri_epay\"]")
+				private WebElement customEPayBRI;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:bca_klikpay\"]")
+				private WebElement customBCAKlickPay;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:bca_klikbca\"]")
+				private WebElement customKlikBCA;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:indosat_dompetku\"]")
+				private WebElement customIndosatDompetku;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:indomaret\"]")
+				private WebElement customIndomaret;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:customKioson\"]")
+				private WebElement customKioson;
+				
+				@FindBy(xpath="//*[@id=\"enabled_payments:gci\"]")
+				private WebElement GiftCardIndonesia;
+				
+				@FindBy(xpath="(//*[@name=\"use_merchant_keys\"])[1]")
+				private WebElement MerchantSettingDisable;
+				
+				@FindBy(xpath="(//*[@name=\\\"use_merchant_keys\\\"])[2]")
+				private WebElement MerchantSettingEnable;
+
+				public WebElement getCancelSetting() {
+					return cancelSetting;
+				}
+
+				public WebElement getSaveSettingCheck() {
+					return saveSettingCheck;
+				}
+
+				public WebElement getStartButton() {
+					return startButton;
+				}
+
+				public WebElement getCommonFeaturesRadio() {
+					return commonFeaturesRadio;
+				}
+
+				public WebElement getAdvancedFeaturesRadio() {
+					return AdvancedFeaturesRadio;
+				}
+
+				public WebElement getUiMethodPopUpRadio() {
+					return uiMethodPopUpRadio;
+				}
+
+				public WebElement getUiMethodredirectionRadio() {
+					return uiMethodredirectionRadio;
+				}
+
+				public WebElement getActivePaymentAll() {
+					return activePaymentAll;
+				}
+
+				public WebElement getActivePayementCustom() {
+					return activePayementCustom;
+				}
+
+				public WebElement getCustomCreditCard() {
+					return CustomCreditCard;
+				}
+
+				public WebElement getCustomATM() {
+					return CustomATM;
+				}
+
+				public WebElement getCustomGOPay() {
+					return customGOPay;
+				}
+
+				public WebElement getCustomCIMB() {
+					return customCIMB;
+				}
+
+				public WebElement getCustomMandiriClick() {
+					return customMandiriClick;
+				}
+
+				public WebElement getCustomMandiriECash() {
+					return customMandiriECash;
+				}
+
+				public WebElement getCustomEPayBRI() {
+					return customEPayBRI;
+				}
+
+				public WebElement getCustomBCAKlickPay() {
+					return customBCAKlickPay;
+				}
+
+				public WebElement getCustomKlikBCA() {
+					return customKlikBCA;
+				}
+
+				public WebElement getCustomIndosatDompetku() {
+					return customIndosatDompetku;
+				}
+
+				public WebElement getCustomIndomaret() {
+					return customIndomaret;
+				}
+
+				public WebElement getCustomKioson() {
+					return customKioson;
+				}
+
+				public WebElement getGiftCardIndonesia() {
+					return GiftCardIndonesia;
+				}
+
+				public WebElement getMerchantSettingDisable() {
+					return MerchantSettingDisable;
+				}
+
+				public WebElement getMerchantSettingEnable() {
+					return MerchantSettingEnable;
+				}
+					
+				
 			}
 		
 		}

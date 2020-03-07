@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 import com.midtrans.demo.BaseClass.TestBase;
 import com.midtrans.demo.pages.CheckOutPage;
+import com.midtrans.demo.pages.CheckOutPage.OrderDetails;
 import com.midtrans.demo.pages.ProductPage;
 import com.midtrans.demo.utilities.CommonUtlities;
 
@@ -20,6 +21,7 @@ public class ProductPurchaseTest extends TestBase {
 	}
 	ProductPage productPage;
 	CheckOutPage checkOutPage;
+	OrderDetails orderDetails;
 	
 	@BeforeTest
 	public void setup()
@@ -27,6 +29,7 @@ public class ProductPurchaseTest extends TestBase {
 		initialisation();
 		productPage=new ProductPage();
 		checkOutPage=new CheckOutPage();
+		orderDetails=new OrderDetails();
 		
 	}
 	
@@ -38,6 +41,40 @@ public class ProductPurchaseTest extends TestBase {
 		productPage.getBuyNowButton().click();
 		
 		checkOutPage.AddCustomerDetails(customerName, email, phone, city, address, postalCode);
+		
+checkOutPage.getCheckOutButton().click();
+		
+		/*if(status.equalsIgnoreCase("pass"))
+			{
+			 Assert.assertEquals(orderDetails.getOrderModal().isDisplayed(), true);
+			 orderDetails.getCancelOrder().click();
+			}
+		else {
+			Assert.assertEquals(productPage.getInValidCheckOutMsg().isDisplayed(), true);
+		}*/
+		
+		driver.switchTo().frame(0);
+
+		Assert.assertEquals(orderDetails.getPillowPrice().isDisplayed(), true);
+		
+		Assert.assertEquals(CommonUtlities.convertElementToNumber(orderDetails.getPillowPrice()),20000);
+		
+		Assert.assertEquals(orderDetails.getOrderItemName().getText().trim(), "Midtrans Pillow");
+		
+		Assert.assertEquals(CommonUtlities.convertElementToNumber(orderDetails.getOrderAmount()), 20000);
+		
+		
+		orderDetails.getShippingDetails().click();
+		
+		Assert.assertEquals(orderDetails.getShippingCustomerName().getText().trim(), customerName);
+		
+		Assert.assertEquals(CommonUtlities.convertElementToNumber(orderDetails.getShippingPhone()), Long.parseLong(phone));
+		
+		Assert.assertEquals(orderDetails.getShippingEmail().getText().trim(), email);
+		
+		Assert.assertEquals(orderDetails.getShippingAddress().getText(), address+" "+city+" "+postalCode);
+		
+		orderDetails.getContinueButton().click();
 		
 	}
 	

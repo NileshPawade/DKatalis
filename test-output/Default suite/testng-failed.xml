@@ -7,7 +7,6 @@
         <methods>
           <include name="ProductPurchaseSuccessFlowTest"/>
           <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.midtrans.demo.testcases.ProductPurchaseTest -->
     </classes>

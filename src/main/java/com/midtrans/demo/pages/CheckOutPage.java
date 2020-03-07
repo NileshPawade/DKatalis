@@ -148,6 +148,8 @@ public class CheckOutPage extends TestBase {
 			getCustomerPostalCode().sendKeys(postalCode);
 			
 		}
+		
+		
 		public static class OrderDetails
 		{
 			

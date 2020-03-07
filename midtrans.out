@@ -1,0 +1,270 @@
+2020-03-08 02:02:44 INFO  ProductPurchaseTest:217 - Reading data from Sheet CustomerAddress
+2020-03-08 02:03:20 INFO  TestBase:86 - firefox browser launched for :ubuntuOperating system
+2020-03-08 02:03:20 INFO  TestBase:93 - Browser window maximised
+2020-03-08 02:03:20 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-08 02:03:20 INFO  TestBase:99 - Implicit wait set to: 20
+2020-03-08 02:03:20 INFO  TestBase:102 - Page Load time Out set to: 20
+2020-03-08 02:03:29 INFO  ProductPurchaseTest:40 - URL hit:https://demo.midtrans.com/
+2020-03-08 02:03:34 INFO  ProductPurchaseTest:56 - BUY NOW  :is clicked
+2020-03-08 02:03:35 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-08 02:03:36 INFO  CheckOutPage:118 - Input is inserted as: nilesh1
+2020-03-08 02:03:37 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-08 02:03:38 INFO  CheckOutPage:125 - Email is inserted as: test1@gmail.com
+2020-03-08 02:03:39 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-08 02:03:39 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627372
+2020-03-08 02:03:39 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-08 02:03:39 INFO  CheckOutPage:141 - City detail is inserted as: 1236627372
+2020-03-08 02:03:39 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-08 02:03:40 INFO  CheckOutPage:148 - Phone number is inserted as: Pune,Maharshtra,India
+2020-03-08 02:03:40 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-08 02:03:40 INFO  CheckOutPage:155 - Postal number is inserted as: 6734732
+2020-03-08 02:03:42 INFO  ProductPurchaseTest:62 - CHECKOUT   :Button clicked
+2020-03-08 02:03:42 INFO  ProductPurchaseTest:74 - ----------Switched to Frame--------
+2020-03-08 02:03:45 INFO  ProductPurchaseTest:78 - ----------Pillow price is displayed------------
+2020-03-08 02:03:45 INFO  ProductPurchaseTest:82 - Pillow price is as expected    :20000
+2020-03-08 02:03:45 INFO  ProductPurchaseTest:86 - Product Name is as expected:  Midtrans Pillow
+2020-03-08 02:03:46 INFO  ProductPurchaseTest:90 - Order Amount is as expected:   20000
+2020-03-08 02:03:46 INFO  ProductPurchaseTest:94 - Clicked on Shipping Detail-----  >
+2020-03-08 02:03:47 INFO  ProductPurchaseTest:98 - Customer name is as expected : nilesh1
+2020-03-08 02:03:47 INFO  ProductPurchaseTest:103 - phone number is as expected    :1236627372
+2020-03-08 02:03:48 INFO  ProductPurchaseTest:107 - Email is as expected  :test1@gmail.com
+2020-03-08 02:03:48 INFO  ProductPurchaseTest:111 - Shpping address is combination of address city and postal code  is :Pune,Maharshtra,India India 6734732
+2020-03-08 02:03:49 INFO  ProductPurchaseTest:115 - clicked on : CONTINUE
+2020-03-08 02:03:51 INFO  ProductPurchaseTest:122 - All payment Methods availability   :visibility of all [[[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (c6ad296b-f419-4e32-8fc6-7d5ac6900f05)] -> xpath: //*[@class="list-title text-actionable-bold"]]]
+2020-03-08 02:03:52 INFO  ProductPurchaseTest:126 - Credit Card    :Payment method selected
+2020-03-08 02:03:54 INFO  ProductPurchaseTest:130 - Amount after applying promo code   :19000
+2020-03-08 02:03:56 INFO  ProductPurchaseTest:137 - Card Number is :4811 1111 1111 1114
+2020-03-08 02:03:56 INFO  ProductPurchaseTest:142 - Expiry Date is :3/20
+2020-03-08 02:03:57 INFO  ProductPurchaseTest:147 - CVV Number is :123
+2020-03-08 02:03:58 INFO  ProductPurchaseTest:152 - Scrolled to Email---------->
+2020-03-08 02:03:58 INFO  ProductPurchaseTest:162 - SCrolled to PayNow------------>
+2020-03-08 02:03:59 INFO  ProductPurchaseTest:166 - Clicked On Pay Now---->
+2020-03-08 02:03:59 INFO  ProductPurchaseTest:170 - Switched to frame------  >
+2020-03-08 02:04:03 INFO  ProductPurchaseTest:177 - Transaction amount is   :19000
+2020-03-08 02:04:03 INFO  ProductPurchaseTest:181 - Auto Generated Transaction date   :
+2020-03-08 02:04:03 INFO  ProductPurchaseTest:209 - Closing driver instance
+2020-03-08 02:04:45 INFO  TestBase:86 - firefox browser launched for :ubuntuOperating system
+2020-03-08 02:04:45 INFO  TestBase:93 - Browser window maximised
+2020-03-08 02:04:45 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-08 02:04:45 INFO  TestBase:99 - Implicit wait set to: 20
+2020-03-08 02:04:45 INFO  TestBase:102 - Page Load time Out set to: 20
+2020-03-08 02:04:52 INFO  ProductPurchaseTest:40 - URL hit:https://demo.midtrans.com/
+2020-03-08 02:04:57 INFO  ProductPurchaseTest:56 - BUY NOW  :is clicked
+2020-03-08 02:04:57 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-08 02:04:59 INFO  CheckOutPage:118 - Input is inserted as: nilesh2
+2020-03-08 02:05:00 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-08 02:05:00 INFO  CheckOutPage:125 - Email is inserted as: test2@gmail.com
+2020-03-08 02:05:00 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-08 02:05:01 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627373
+2020-03-08 02:05:01 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-08 02:05:02 INFO  CheckOutPage:141 - City detail is inserted as: 1236627373
+2020-03-08 02:05:02 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-08 02:05:02 INFO  CheckOutPage:148 - Phone number is inserted as: Torronto,Canada
+2020-03-08 02:05:03 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-08 02:05:04 INFO  CheckOutPage:155 - Postal number is inserted as: 9869868
+2020-03-08 02:05:06 INFO  ProductPurchaseTest:62 - CHECKOUT   :Button clicked
+2020-03-08 02:05:06 INFO  ProductPurchaseTest:74 - ----------Switched to Frame--------
+2020-03-08 02:05:07 INFO  ProductPurchaseTest:78 - ----------Pillow price is displayed------------
+2020-03-08 02:05:07 INFO  ProductPurchaseTest:82 - Pillow price is as expected    :20000
+2020-03-08 02:05:07 INFO  ProductPurchaseTest:86 - Product Name is as expected:  Midtrans Pillow
+2020-03-08 02:05:08 INFO  ProductPurchaseTest:90 - Order Amount is as expected:   20000
+2020-03-08 02:05:08 INFO  ProductPurchaseTest:94 - Clicked on Shipping Detail-----  >
+2020-03-08 02:05:09 INFO  ProductPurchaseTest:98 - Customer name is as expected : nilesh2
+2020-03-08 02:05:09 INFO  ProductPurchaseTest:103 - phone number is as expected    :1236627373
+2020-03-08 02:05:09 INFO  ProductPurchaseTest:107 - Email is as expected  :test2@gmail.com
+2020-03-08 02:05:10 INFO  ProductPurchaseTest:111 - Shpping address is combination of address city and postal code  is :Torronto,Canada Canada 9869868
+2020-03-08 02:05:11 INFO  ProductPurchaseTest:115 - clicked on : 
+2020-03-08 02:05:14 INFO  ProductPurchaseTest:122 - All payment Methods availability   :visibility of all [[[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (d615c39f-2d67-4790-86ac-74cfd2eef1ae)] -> xpath: //*[@class="list-title text-actionable-bold"]]]
+2020-03-08 02:05:15 INFO  ProductPurchaseTest:126 - Credit Card    :Payment method selected
+2020-03-08 02:05:16 INFO  ProductPurchaseTest:130 - Amount after applying promo code   :19000
+2020-03-08 02:05:18 INFO  ProductPurchaseTest:137 - Card Number is :4911 1111 1111 1113
+2020-03-08 02:05:18 INFO  ProductPurchaseTest:142 - Expiry Date is :3/20
+2020-03-08 02:05:18 INFO  ProductPurchaseTest:147 - CVV Number is :123
+2020-03-08 02:05:19 INFO  ProductPurchaseTest:152 - Scrolled to Email---------->
+2020-03-08 02:05:19 INFO  ProductPurchaseTest:162 - SCrolled to PayNow------------>
+2020-03-08 02:05:19 INFO  ProductPurchaseTest:166 - Clicked On Pay Now---->
+2020-03-08 02:05:19 INFO  ProductPurchaseTest:170 - Switched to frame------  >
+2020-03-08 02:05:25 INFO  ProductPurchaseTest:177 - Transaction amount is   :19000
+2020-03-08 02:05:25 INFO  ProductPurchaseTest:181 - Auto Generated Transaction date   :3/8/2020
+2020-03-08 02:05:25 INFO  ProductPurchaseTest:209 - Closing driver instance
+2020-03-08 02:09:08 INFO  ProductPurchaseTest:217 - Reading data from Sheet CustomerAddress
+2020-03-08 02:09:46 INFO  TestBase:86 - firefox browser launched for :ubuntuOperating system
+2020-03-08 02:09:46 INFO  TestBase:93 - Browser window maximised
+2020-03-08 02:09:46 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-08 02:09:47 INFO  TestBase:99 - Implicit wait set to: 20
+2020-03-08 02:09:47 INFO  TestBase:102 - Page Load time Out set to: 20
+2020-03-08 02:09:54 INFO  ProductPurchaseTest:40 - URL hit:https://demo.midtrans.com/
+2020-03-08 02:09:58 INFO  ProductPurchaseTest:56 - BUY NOW  :is clicked
+2020-03-08 02:10:00 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-08 02:10:02 INFO  CheckOutPage:118 - Input is inserted as: nilesh1
+2020-03-08 02:10:02 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-08 02:10:04 INFO  CheckOutPage:125 - Email is inserted as: test1@gmail.com
+2020-03-08 02:10:04 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-08 02:10:05 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627372
+2020-03-08 02:10:06 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-08 02:10:06 INFO  CheckOutPage:141 - City detail is inserted as: 1236627372
+2020-03-08 02:10:07 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-08 02:10:09 INFO  CheckOutPage:148 - Phone number is inserted as: Pune,Maharshtra,India
+2020-03-08 02:10:10 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-08 02:10:11 INFO  CheckOutPage:155 - Postal number is inserted as: 6734732
+2020-03-08 02:10:13 INFO  ProductPurchaseTest:62 - CHECKOUT   :Button clicked
+2020-03-08 02:10:13 INFO  ProductPurchaseTest:74 - ----------Switched to Frame--------
+2020-03-08 02:10:15 INFO  ProductPurchaseTest:78 - ----------Pillow price is displayed------------
+2020-03-08 02:10:15 INFO  ProductPurchaseTest:82 - Pillow price is as expected    :20000
+2020-03-08 02:10:15 INFO  ProductPurchaseTest:86 - Product Name is as expected:  Midtrans Pillow
+2020-03-08 02:10:16 INFO  ProductPurchaseTest:90 - Order Amount is as expected:   20000
+2020-03-08 02:10:16 INFO  ProductPurchaseTest:94 - Clicked on Shipping Detail-----  >
+2020-03-08 02:10:17 INFO  ProductPurchaseTest:98 - Customer name is as expected : nilesh1
+2020-03-08 02:10:17 INFO  ProductPurchaseTest:103 - phone number is as expected    :1236627372
+2020-03-08 02:10:18 INFO  ProductPurchaseTest:107 - Email is as expected  :test1@gmail.com
+2020-03-08 02:10:18 INFO  ProductPurchaseTest:111 - Shpping address is combination of address city and postal code  is :Pune,Maharshtra,India India 6734732
+2020-03-08 02:10:19 INFO  ProductPurchaseTest:115 - clicked on : 
+2020-03-08 02:10:22 INFO  ProductPurchaseTest:122 - All payment Methods availability   :visibility of all [[[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (152cda39-f5dc-4c1a-80a6-ffe899692dcf)] -> xpath: //*[@class="list-title text-actionable-bold"]]]
+2020-03-08 02:10:23 INFO  ProductPurchaseTest:126 - Credit Card    :Payment method selected
+2020-03-08 02:10:27 INFO  ProductPurchaseTest:130 - Amount after applying promo code   :19000
+2020-03-08 02:10:30 INFO  ProductPurchaseTest:137 - Card Number is :4811 1111 1111 1114
+2020-03-08 02:10:33 INFO  ProductPurchaseTest:142 - Expiry Date is :3/20
+2020-03-08 02:10:33 INFO  ProductPurchaseTest:147 - CVV Number is :123
+2020-03-08 02:10:33 INFO  ProductPurchaseTest:152 - Scrolled to Email---------->
+2020-03-08 02:10:34 INFO  ProductPurchaseTest:162 - SCrolled to PayNow------------>
+2020-03-08 02:10:35 INFO  ProductPurchaseTest:166 - Clicked On Pay Now---->
+2020-03-08 02:10:36 INFO  ProductPurchaseTest:170 - Switched to frame------  >
+2020-03-08 02:10:41 INFO  ProductPurchaseTest:177 - Transaction amount is   :19000
+2020-03-08 02:10:41 INFO  ProductPurchaseTest:191 - 112233: OTP entered
+2020-03-08 02:10:42 INFO  ProductPurchaseTest:195 - clicked on OK to complete Transaction------>
+2020-03-08 02:10:44 INFO  ProductPurchaseTest:209 - Closing driver instance
+2020-03-08 02:11:24 INFO  TestBase:86 - firefox browser launched for :ubuntuOperating system
+2020-03-08 02:11:24 INFO  TestBase:93 - Browser window maximised
+2020-03-08 02:11:24 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-08 02:11:24 INFO  TestBase:99 - Implicit wait set to: 20
+2020-03-08 02:11:24 INFO  TestBase:102 - Page Load time Out set to: 20
+2020-03-08 02:11:30 INFO  ProductPurchaseTest:40 - URL hit:https://demo.midtrans.com/
+2020-03-08 02:11:33 INFO  ProductPurchaseTest:56 - BUY NOW  :is clicked
+2020-03-08 02:11:36 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-08 02:11:38 INFO  CheckOutPage:118 - Input is inserted as: nilesh2
+2020-03-08 02:11:38 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-08 02:11:40 INFO  CheckOutPage:125 - Email is inserted as: test2@gmail.com
+2020-03-08 02:11:40 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-08 02:11:41 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627373
+2020-03-08 02:11:41 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-08 02:11:42 INFO  CheckOutPage:141 - City detail is inserted as: 1236627373
+2020-03-08 02:11:42 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-08 02:11:43 INFO  CheckOutPage:148 - Phone number is inserted as: Torronto,Canada
+2020-03-08 02:11:44 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-08 02:11:44 INFO  CheckOutPage:155 - Postal number is inserted as: 9869868
+2020-03-08 02:11:46 INFO  ProductPurchaseTest:62 - CHECKOUT   :Button clicked
+2020-03-08 02:11:46 INFO  ProductPurchaseTest:74 - ----------Switched to Frame--------
+2020-03-08 02:11:48 INFO  ProductPurchaseTest:78 - ----------Pillow price is displayed------------
+2020-03-08 02:11:48 INFO  ProductPurchaseTest:82 - Pillow price is as expected    :20000
+2020-03-08 02:11:48 INFO  ProductPurchaseTest:86 - Product Name is as expected:  Midtrans Pillow
+2020-03-08 02:11:49 INFO  ProductPurchaseTest:90 - Order Amount is as expected:   20000
+2020-03-08 02:11:49 INFO  ProductPurchaseTest:94 - Clicked on Shipping Detail-----  >
+2020-03-08 02:11:49 INFO  ProductPurchaseTest:98 - Customer name is as expected : nilesh2
+2020-03-08 02:11:50 INFO  ProductPurchaseTest:103 - phone number is as expected    :1236627373
+2020-03-08 02:11:50 INFO  ProductPurchaseTest:107 - Email is as expected  :test2@gmail.com
+2020-03-08 02:11:50 INFO  ProductPurchaseTest:111 - Shpping address is combination of address city and postal code  is :Torronto,Canada Canada 9869868
+2020-03-08 02:11:52 INFO  ProductPurchaseTest:115 - clicked on : 
+2020-03-08 02:11:55 INFO  ProductPurchaseTest:122 - All payment Methods availability   :visibility of all [[[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[FirefoxDriver: firefox on LINUX (6cad2057-c508-4291-a9cf-009e07afb36f)] -> xpath: //*[@class="list-title text-actionable-bold"]]]
+2020-03-08 02:11:55 INFO  ProductPurchaseTest:126 - Credit Card    :Payment method selected
+2020-03-08 02:11:57 INFO  ProductPurchaseTest:130 - Amount after applying promo code   :19000
+2020-03-08 02:11:59 INFO  ProductPurchaseTest:137 - Card Number is :4911 1111 1111 1113
+2020-03-08 02:11:59 INFO  ProductPurchaseTest:142 - Expiry Date is :3/20
+2020-03-08 02:12:00 INFO  ProductPurchaseTest:147 - CVV Number is :123
+2020-03-08 02:12:00 INFO  ProductPurchaseTest:152 - Scrolled to Email---------->
+2020-03-08 02:12:01 INFO  ProductPurchaseTest:162 - SCrolled to PayNow------------>
+2020-03-08 02:12:02 INFO  ProductPurchaseTest:166 - Clicked On Pay Now---->
+2020-03-08 02:12:02 INFO  ProductPurchaseTest:170 - Switched to frame------  >
+2020-03-08 02:12:07 INFO  ProductPurchaseTest:177 - Transaction amount is   :19000
+2020-03-08 02:12:07 INFO  ProductPurchaseTest:191 - 112233: OTP entered
+2020-03-08 02:12:09 INFO  ProductPurchaseTest:195 - clicked on OK to complete Transaction------>
+2020-03-08 02:12:10 INFO  ProductPurchaseTest:209 - Closing driver instance
+2020-03-08 02:27:54 INFO  ProductPurchaseTest:237 - Reading data from Sheet CustomerAddress
+2020-03-08 02:28:07 INFO  TestBase:77 - Chrome browser launched for :ubuntuOperating system
+2020-03-08 02:28:07 INFO  TestBase:93 - Browser window maximised
+2020-03-08 02:28:07 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-08 02:28:07 INFO  TestBase:99 - Implicit wait set to: 20
+2020-03-08 02:28:07 INFO  TestBase:102 - Page Load time Out set to: 20
+2020-03-08 02:28:12 INFO  ProductPurchaseTest:45 - URL hit:https://demo.midtrans.com/
+2020-03-08 02:28:16 INFO  ProductPurchaseTest:62 - BUY NOW  :is clicked
+2020-03-08 02:28:17 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-08 02:28:18 INFO  CheckOutPage:118 - Input is inserted as: nilesh1
+2020-03-08 02:28:18 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-08 02:28:19 INFO  CheckOutPage:125 - Email is inserted as: test1@gmail.com
+2020-03-08 02:28:20 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-08 02:28:22 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627372
+2020-03-08 02:28:22 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-08 02:28:23 INFO  CheckOutPage:141 - City detail is inserted as: 1236627372
+2020-03-08 02:28:23 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-08 02:28:23 INFO  CheckOutPage:148 - Phone number is inserted as: Pune,Maharshtra,India
+2020-03-08 02:28:24 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-08 02:28:24 INFO  CheckOutPage:155 - Postal number is inserted as: 6734732
+2020-03-08 02:28:24 INFO  ProductPurchaseTest:68 -    :Button clicked
+2020-03-08 02:28:25 INFO  ProductPurchaseTest:80 - ----------Switched to Frame--------
+2020-03-08 02:28:27 INFO  ProductPurchaseTest:84 - ----------Pillow price is displayed------------
+2020-03-08 02:28:27 INFO  ProductPurchaseTest:88 - Pillow price is as expected    :20000
+2020-03-08 02:28:28 INFO  ProductPurchaseTest:93 - Product Name is as expected:  Midtrans Pillow
+2020-03-08 02:28:28 INFO  ProductPurchaseTest:97 - Order Amount is as expected:   20000
+2020-03-08 02:28:29 INFO  ProductPurchaseTest:102 - Clicked on Shipping Detail-----  >
+2020-03-08 02:28:29 INFO  ProductPurchaseTest:106 - Customer name is as expected : nilesh1
+2020-03-08 02:28:29 INFO  ProductPurchaseTest:111 - phone number is as expected    :1236627372
+2020-03-08 02:28:29 INFO  ProductPurchaseTest:116 - Email is as expected  :test1@gmail.com
+2020-03-08 02:28:30 INFO  ProductPurchaseTest:120 - Shpping address is combination of address city and postal code  is :Pune,Maharshtra,India India 6734732
+2020-03-08 02:28:31 INFO  ProductPurchaseTest:125 - clicked on : CONTINUE
+2020-03-08 02:28:33 INFO  ProductPurchaseTest:131 - All payment Methods availability   :visibility of all [[[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (0dfb6f39261c0f142ae8bcaf210f1fa7)] -> xpath: //*[@class="list-title text-actionable-bold"]]]
+2020-03-08 02:28:34 INFO  ProductPurchaseTest:136 - Credit Card    :Payment method selected
+2020-03-08 02:28:34 INFO  ProductPurchaseTest:140 - Amount after applying promo code   :19000
+2020-03-08 02:28:35 INFO  ProductPurchaseTest:147 - Card Number is :4811 1111 1111 1114
+2020-03-08 02:28:37 INFO  ProductPurchaseTest:151 - Expiry Date is :3/20
+2020-03-08 02:28:37 INFO  ProductPurchaseTest:155 - CVV Number is :123
+2020-03-08 02:28:37 INFO  ProductPurchaseTest:159 - Scrolled to Email---------->
+2020-03-08 02:28:37 INFO  ProductPurchaseTest:172 - SCrolled to PayNow------------>
+2020-03-08 02:28:37 INFO  ProductPurchaseTest:176 - Clicked On Pay Now---->
+2020-03-08 02:28:37 INFO  ProductPurchaseTest:180 - Switched to frame------  >
+2020-03-08 02:28:43 INFO  ProductPurchaseTest:186 - Transaction amount is   :19000
+2020-03-08 02:28:44 INFO  ProductPurchaseTest:209 - 112233: OTP entered
+2020-03-08 02:28:46 INFO  ProductPurchaseTest:213 - clicked on OK to complete Transaction------>
+2020-03-08 02:28:53 INFO  TestBase:77 - Chrome browser launched for :ubuntuOperating system
+2020-03-08 02:28:53 INFO  TestBase:93 - Browser window maximised
+2020-03-08 02:28:53 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-08 02:28:53 INFO  TestBase:99 - Implicit wait set to: 20
+2020-03-08 02:28:53 INFO  TestBase:102 - Page Load time Out set to: 20
+2020-03-08 02:28:58 INFO  ProductPurchaseTest:45 - URL hit:https://demo.midtrans.com/
+2020-03-08 02:29:02 INFO  ProductPurchaseTest:62 - BUY NOW  :is clicked
+2020-03-08 02:29:03 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-08 02:29:04 INFO  CheckOutPage:118 - Input is inserted as: nilesh2
+2020-03-08 02:29:04 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-08 02:29:05 INFO  CheckOutPage:125 - Email is inserted as: test2@gmail.com
+2020-03-08 02:29:05 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-08 02:29:06 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627373
+2020-03-08 02:29:06 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-08 02:29:07 INFO  CheckOutPage:141 - City detail is inserted as: 1236627373
+2020-03-08 02:29:07 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-08 02:29:09 INFO  CheckOutPage:148 - Phone number is inserted as: Torronto,Canada
+2020-03-08 02:29:10 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-08 02:29:12 INFO  CheckOutPage:155 - Postal number is inserted as: 9869868
+2020-03-08 02:29:14 INFO  ProductPurchaseTest:68 - CHECKOUT   :Button clicked
+2020-03-08 02:29:14 INFO  ProductPurchaseTest:80 - ----------Switched to Frame--------
+2020-03-08 02:29:15 INFO  ProductPurchaseTest:84 - ----------Pillow price is displayed------------
+2020-03-08 02:29:15 INFO  ProductPurchaseTest:88 - Pillow price is as expected    :20000
+2020-03-08 02:29:16 INFO  ProductPurchaseTest:93 - Product Name is as expected:  Midtrans Pillow
+2020-03-08 02:29:16 INFO  ProductPurchaseTest:97 - Order Amount is as expected:   20000
+2020-03-08 02:29:17 INFO  ProductPurchaseTest:102 - Clicked on Shipping Detail-----  >
+2020-03-08 02:29:18 INFO  ProductPurchaseTest:106 - Customer name is as expected : nilesh2
+2020-03-08 02:29:18 INFO  ProductPurchaseTest:111 - phone number is as expected    :1236627373
+2020-03-08 02:29:18 INFO  ProductPurchaseTest:116 - Email is as expected  :test2@gmail.com
+2020-03-08 02:29:19 INFO  ProductPurchaseTest:120 - Shpping address is combination of address city and postal code  is :Torronto,Canada Canada 9869868
+2020-03-08 02:29:21 INFO  ProductPurchaseTest:125 - clicked on : 
+2020-03-08 02:29:22 INFO  ProductPurchaseTest:131 - All payment Methods availability   :visibility of all [[[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]], [[ChromeDriver: chrome on LINUX (da777e9ee4a6281605f84187becd0458)] -> xpath: //*[@class="list-title text-actionable-bold"]]]
+2020-03-08 02:29:24 INFO  ProductPurchaseTest:136 - Credit Card    :Payment method selected
+2020-03-08 02:29:25 INFO  ProductPurchaseTest:140 - Amount after applying promo code   :19000
+2020-03-08 02:29:28 INFO  ProductPurchaseTest:147 - Card Number is :4911 1111 1111 1113
+2020-03-08 02:29:29 INFO  ProductPurchaseTest:151 - Expiry Date is :3/20
+2020-03-08 02:29:29 INFO  ProductPurchaseTest:155 - CVV Number is :123
+2020-03-08 02:29:30 INFO  ProductPurchaseTest:159 - Scrolled to Email---------->
+2020-03-08 02:29:30 INFO  ProductPurchaseTest:172 - SCrolled to PayNow------------>
+2020-03-08 02:29:31 INFO  ProductPurchaseTest:176 - Clicked On Pay Now---->
+2020-03-08 02:29:31 INFO  ProductPurchaseTest:180 - Switched to frame------  >
+2020-03-08 02:29:36 INFO  ProductPurchaseTest:186 - Transaction amount is   :19000
+2020-03-08 02:29:36 INFO  ProductPurchaseTest:209 - 112233: OTP entered
+2020-03-08 02:29:38 INFO  ProductPurchaseTest:213 - clicked on OK to complete Transaction------>
+2020-03-08 02:33:58 INFO  ProductPurchaseTest:237 - Reading data from Sheet CustomerAddress

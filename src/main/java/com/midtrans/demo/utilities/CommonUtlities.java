@@ -1,13 +1,18 @@
 package com.midtrans.demo.utilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 
 import com.midtrans.demo.BaseClass.TestBase;
@@ -88,7 +93,13 @@ public class CommonUtlities extends TestBase{
 		    System.out.println(formatter.format(date)); 
 		    return formatter.format(date);
 	}
-	
+	public static String getCurrentDateWithTimeFormat()
+	{
+	       DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+	       Date dateobj = new Date();
+	       
+	       return df.format(dateobj);
+	}
 
 	public static void scrollToElement(WebElement element)
 	{
@@ -108,6 +119,25 @@ public class CommonUtlities extends TestBase{
 	{
 		
 		return element.getText();
+	}
+	
+	public static void getScreenShot(String path,String method)
+	{
+		try {
+
+			TakesScreenshot ts = (TakesScreenshot) driver;
+
+			File source = ts.getScreenshotAs(OutputType.FILE);
+
+			FileUtils.copyFile(source, new File(path + method +getCurrentDateWithTimeFormat()+ ".png"));
+
+			System.out.println("Screenshot taken");
+		} catch (Exception e) {
+
+			System.out.println("Exception while taking screenshot " + e.getMessage());
+		}
+
+		
 	}
 
 }

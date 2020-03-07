@@ -1,0 +1,81 @@
+2020-03-07 21:12:20 INFO  TestBase:77 - Chrome browser launched for :ubuntuOperating system
+2020-03-07 21:12:20 INFO  TestBase:93 - Browser window maximised
+2020-03-07 21:12:20 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-07 21:12:20 INFO  TestBase:99 - Implicit wait set to20
+2020-03-07 21:12:20 INFO  TestBase:102 - Page Load time Out set to:20
+2020-03-07 21:12:22 INFO  TestBase:105 - URL hit:https://demo.midtrans.com/
+2020-03-07 21:12:23 INFO  CommonUtlities:52 - Data from current row is:[[Ljava.lang.String;@3e14c16d
+2020-03-07 21:12:23 INFO  ProductPage:31 - Button with Text :BUY NOW
+2020-03-07 21:12:23 INFO  ProductPage:31 - Button with Text :BUY NOW
+2020-03-07 21:12:23 INFO  ProductPage:31 - Button with Text :BUY NOW
+2020-03-07 21:12:23 INFO  ProductPurchaseTest:47 - BUY NOWis clicked
+2020-03-07 21:12:23 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-07 21:12:24 INFO  CheckOutPage:118 - Input is inserted as: nilesh1
+2020-03-07 21:12:24 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-07 21:12:24 INFO  CheckOutPage:125 - Email is inserted as: test1@gmail.com
+2020-03-07 21:12:24 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-07 21:12:24 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627372
+2020-03-07 21:12:24 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-07 21:12:24 INFO  CheckOutPage:141 - City detail is inserted as: 1236627372
+2020-03-07 21:12:25 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-07 21:12:25 INFO  CheckOutPage:148 - Phone number is inserted as: Pune,Maharshtra,India
+2020-03-07 21:12:25 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-07 21:12:25 INFO  CheckOutPage:155 - Postal number is inserted as: 6734732
+2020-03-07 21:12:25 INFO  ProductPurchaseTest:53 - [[ChromeDriver: chrome on LINUX (e2180dc4d92a5519fcc2ebc48d7245e2)] -> css selector: div.cart-checkout]Button clicked
+2020-03-07 21:12:25 INFO  ProductPurchaseTest:65 - Switched to Frame
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:69 - Pillow price is displayed
+2020-03-07 21:12:27 INFO  CommonUtlities:59 - Element value is:20000
+2020-03-07 21:12:27 INFO  CommonUtlities:59 - Element value is:20000
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:73 - Pillow price is as expected20000
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:77 - Product Name is as expectedMidtrans Pillow
+2020-03-07 21:12:27 INFO  CommonUtlities:59 - Element value is:20000
+2020-03-07 21:12:27 INFO  CommonUtlities:59 - Element value is:20000
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:81 - Order Amount is as expected20000
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:85 - Clicked on Shipping Detail
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:89 - Customer name is as expectednilesh1
+2020-03-07 21:12:27 INFO  CommonUtlities:59 - Element value is:1236627372
+2020-03-07 21:12:27 INFO  CommonUtlities:59 - Element value is:1236627372
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:94 - phone number is as expected1236627372
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:98 - Email is as expectedtest1@gmail.com
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:102 - Shpping address is combination of address city and postal codePune,Maharshtra,India India 6734732
+2020-03-07 21:12:27 INFO  ProductPurchaseTest:106 - clicked on [[ChromeDriver: chrome on LINUX (e2180dc4d92a5519fcc2ebc48d7245e2)] -> xpath: //*[@class="button-main-content"]]
+2020-03-07 21:12:28 INFO  ProductPurchaseTest:115 - Driver instance closed
+2020-03-07 21:15:02 INFO  TestBase:77 - Chrome browser launched for :ubuntuOperating system
+2020-03-07 21:15:02 INFO  TestBase:93 - Browser window maximised
+2020-03-07 21:15:02 INFO  TestBase:96 - All Browser cookies Cleared
+2020-03-07 21:15:02 INFO  TestBase:99 - Implicit wait set to20
+2020-03-07 21:15:02 INFO  TestBase:102 - Page Load time Out set to:20
+2020-03-07 21:15:05 INFO  TestBase:105 - URL hit:https://demo.midtrans.com/
+2020-03-07 21:15:05 INFO  CommonUtlities:52 - Data from current row is:[[Ljava.lang.String;@180da663
+2020-03-07 21:15:05 INFO  ProductPurchaseTest:47 - BUY NOWis clicked
+2020-03-07 21:15:06 INFO  CheckOutPage:114 - Customer Name field is Cleared
+2020-03-07 21:15:06 INFO  CheckOutPage:118 - Input is inserted as: nilesh1
+2020-03-07 21:15:06 INFO  CheckOutPage:121 - Email field is Cleared
+2020-03-07 21:15:06 INFO  CheckOutPage:125 - Email is inserted as: test1@gmail.com
+2020-03-07 21:15:07 INFO  CheckOutPage:129 - Phone number field is Cleared
+2020-03-07 21:15:07 INFO  CheckOutPage:132 - Phone number is inserted as: 1236627372
+2020-03-07 21:15:07 INFO  CheckOutPage:136 - city number field is Cleared
+2020-03-07 21:15:07 INFO  CheckOutPage:141 - City detail is inserted as: 1236627372
+2020-03-07 21:15:07 INFO  CheckOutPage:145 - Address field is Cleared
+2020-03-07 21:15:07 INFO  CheckOutPage:148 - Phone number is inserted as: Pune,Maharshtra,India
+2020-03-07 21:15:07 INFO  CheckOutPage:152 - Postal number field is Cleared
+2020-03-07 21:15:07 INFO  CheckOutPage:155 - Postal number is inserted as: 6734732
+2020-03-07 21:15:08 INFO  ProductPurchaseTest:53 - [[ChromeDriver: chrome on LINUX (56cc6c37b2bb51d4c3f5197828da8f85)] -> css selector: div.cart-checkout]Button clicked
+2020-03-07 21:15:08 INFO  ProductPurchaseTest:65 - Switched to Frame
+2020-03-07 21:15:09 INFO  ProductPurchaseTest:69 - Pillow price is displayed
+2020-03-07 21:15:09 INFO  CommonUtlities:59 - Element value is:20000
+2020-03-07 21:15:09 INFO  CommonUtlities:59 - Element value is:20000
+2020-03-07 21:15:09 INFO  ProductPurchaseTest:73 - Pillow price is as expected20000
+2020-03-07 21:15:09 INFO  ProductPurchaseTest:77 - Product Name is as expectedMidtrans Pillow
+2020-03-07 21:15:09 INFO  CommonUtlities:59 - Element value is:20000
+2020-03-07 21:15:09 INFO  CommonUtlities:59 - Element value is:20000
+2020-03-07 21:15:09 INFO  ProductPurchaseTest:81 - Order Amount is as expected20000
+2020-03-07 21:15:09 INFO  ProductPurchaseTest:85 - Clicked on Shipping Detail
+2020-03-07 21:15:09 INFO  ProductPurchaseTest:89 - Customer name is as expectednilesh1
+2020-03-07 21:15:09 INFO  CommonUtlities:59 - Element value is:1236627372
+2020-03-07 21:15:09 INFO  CommonUtlities:59 - Element value is:1236627372
+2020-03-07 21:15:09 INFO  ProductPurchaseTest:94 - phone number is as expected1236627372
+2020-03-07 21:15:09 INFO  ProductPurchaseTest:98 - Email is as expectedtest1@gmail.com
+2020-03-07 21:15:10 INFO  ProductPurchaseTest:102 - Shpping address is combination of address city and postal codePune,Maharshtra,India India 6734732
+2020-03-07 21:15:10 INFO  ProductPurchaseTest:106 - clicked on [[ChromeDriver: chrome on LINUX (56cc6c37b2bb51d4c3f5197828da8f85)] -> xpath: //*[@class="button-main-content"]]
+2020-03-07 21:15:10 INFO  ProductPurchaseTest:115 - Driver instance closed

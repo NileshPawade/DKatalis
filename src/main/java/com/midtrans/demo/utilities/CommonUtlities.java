@@ -3,6 +3,7 @@ package com.midtrans.demo.utilities;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -53,16 +54,51 @@ public class CommonUtlities extends TestBase{
 		return arrayExcelData;
 		
 	}
+	public static long calculateTotalAmount(WebElement quantity, String unitPrice) {
+		String Nquanity[] = quantity.getText().split(" ");
+
+		long Totalquantity = Long.parseLong(Nquanity[1]);
+
+		long perUnitPrice = Long.parseLong(unitPrice);
+
+		System.out.println(Totalquantity * perUnitPrice);
+
+		return Totalquantity * perUnitPrice;
+
+	}
+	
+	public static void selectElementWithTextFromList(List<WebElement> paymentOptions, String text) {
+		for (WebElement webElement : paymentOptions) {
+
+			if (webElement.getText().contains(text)) {
+				webElement.click();
+				break;
+
+			}
+
+		}
+
+	}
+	
+	
+
+	public static void scrollToElement(WebElement element)
+	{
+		js.executeScript("arguments[0].scrollIntoView(true);", element);
+	}
+
+
 
 	public static long convertElementToNumber(WebElement element) {
 		long number = (long) Double.parseDouble(element.getText().replaceAll("[,+-]", ""));
+		
 		return number;
 
 	}
 	
 	public static String elementWithText(WebElement element)
 	{
-		log.info("Element After converting to Number"+element.getText());
+		
 		return element.getText();
 	}
 

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8865" started-at="2020-03-07T13:24:06Z" finished-at="2020-03-07T13:24:15Z">
+  <suite name="Default suite" duration-ms="10187" started-at="2020-03-07T15:42:17Z" finished-at="2020-03-07T15:42:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8865" started-at="2020-03-07T13:24:06Z" finished-at="2020-03-07T13:24:15Z">
+    <test name="Default test" duration-ms="10187" started-at="2020-03-07T15:42:17Z" finished-at="2020-03-07T15:42:28Z">
       <class name="com.midtrans.demo.testcases.ProductPurchaseTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.midtrans.demo.testcases.ProductPurchaseTest@42dafa95]" name="setup" is-config="true" duration-ms="4543" started-at="2020-03-07T18:54:06Z" finished-at="2020-03-07T18:54:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.midtrans.demo.testcases.ProductPurchaseTest@3701eaf6]" name="setup" is-config="true" duration-ms="4966" started-at="2020-03-07T21:12:17Z" finished-at="2020-03-07T21:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ProductPurchaseSuccessFlowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.midtrans.demo.testcases.ProductPurchaseTest@42dafa95]" name="ProductPurchaseSuccessFlowTest" duration-ms="4050" started-at="2020-03-07T18:54:11Z" data-provider="addCustomerDetails" finished-at="2020-03-07T18:54:15Z">
+        <test-method status="PASS" signature="ProductPurchaseSuccessFlowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.midtrans.demo.testcases.ProductPurchaseTest@3701eaf6]" name="ProductPurchaseSuccessFlowTest" duration-ms="4878" started-at="2020-03-07T21:12:23Z" data-provider="addCustomerDetails" finished-at="2020-03-07T21:12:27Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductPurchaseSuccessFlowTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.midtrans.demo.testcases.ProductPurchaseTest@42dafa95]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-03-07T18:54:15Z" finished-at="2020-03-07T18:54:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.midtrans.demo.testcases.ProductPurchaseTest@3701eaf6]" name="tearDown" is-config="true" duration-ms="137" started-at="2020-03-07T21:12:27Z" finished-at="2020-03-07T21:12:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
